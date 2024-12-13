@@ -77,13 +77,13 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <a href="index.html" class="d-flex align-items-center text-decoration-none">
                       <img src="image/logo_white.png" alt="Wonder Fur Logo" style="width: 80px; height: 80px; margin-right: 10px;">
-                      <h1 class="h4 mb-0" style="font-weight: bold; font-size: 32px;">Wonder Fur 汪得福-寵物小能手</h1>
+                      <h1 class="h4 mb-0" style="font-weight: bold; font-size: 32px;">Wonder Fur 汪得福-Pet Assistant</h1>
                     </a>
                     <div class="search-bar position-relative">
                       <input 
                           type="text" 
                           class="form-control" 
-                          placeholder="請選擇想查詢場域" 
+                          placeholder="Please select the field." 
                           id="searchInput" 
                           readonly 
                           onclick="toggleDropdown()" 
@@ -92,9 +92,9 @@
                           id="dropdownMenu" 
                           class="list-group position-absolute bg-white shadow rounded-3 mt-1" 
                           style="display: none; z-index: 1000;">
-                          <li class="list-group-item" onclick="selectOption('寵物友善咖啡廳')" style="font-size: 16px;">寵物友善咖啡廳</li>
-                          <li class="list-group-item" onclick="selectOption('公園')" style="font-size: 16px;">公園</li>
-                          <li class="list-group-item" onclick="selectOption('寵物醫院')" style="font-size: 16px;">寵物醫院</li>
+                          <li class="list-group-item" onclick="selectOption('寵物友善咖啡廳')" style="font-size: 16px;">Pet Friendly Cafe</li>
+                          <li class="list-group-item" onclick="selectOption('公園')" style="font-size: 16px;">Park</li>
+                          <li class="list-group-item" onclick="selectOption('寵物醫院')" style="font-size: 16px;">Pet Hospital</li>
                       </ul>
                     </div>
                   </div>
@@ -131,10 +131,6 @@
               <div class="row align-items-center g-lg-5 py-5">
                   <div class="col-lg-7 text-center text-lg-start" style="margin-top: -20px;">
                       <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3" style="font-size: 3rem;">
-                          探索附近的寵物友善區域
-                      </h1>
-                      <br>
-                      <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3" style="font-size: 3rem;">
                           Explore nearby pet-friendly areas.
                       </h1>
                   </div>
@@ -147,10 +143,6 @@
                           style="width: 100%; height: 100%; border-radius: 0;">
                       </div>
                       
-                      <small class="text-body-secondary d-block mt-3">
-                          （此處將顯示互動式地圖）
-                      </small>
-            
                       <!-- 開始搜索現在位置按鈕 -->
                       <button id="locate-button" class="btn btn-primary position-absolute" 
                           style="top: 20px; right: 20px; z-index: 10;">
@@ -220,7 +212,7 @@
             <!-- 察看結果按鈕 -->
             <div class="row mt-4">
                 <div class="col-12 text-center">
-                    <a href="result.html" class="btn btn-success" style="margin-top: -80px; font-size: 20px;">察看結果</a>
+                    <a href="result.html" class="btn btn-success" style="margin-top: -80px; font-size: 20px;">Result</a>
                 </div>
             </div>
              
